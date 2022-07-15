@@ -90,6 +90,11 @@ def mostrar_menu(i):
                             width=10, height=1, padx=0, pady=3, relief=FLAT, anchor=W, font="Raleway 18 bold", bg=cor2, fg=cor1)
     label_resultado.place(x=7, y=170)
 
+    # mostrando resultado
+
+                l_resultado['text'] = str(resultado) + ' ' + str(unidade_para[unidade_para.index(b)])
+
+                e_numero.delete(0, END
 
 # Frame superior (títulos)
 frame_titulos = Frame(janela, width=450, height=50, pady=0, padx=0, relief=FLAT,
